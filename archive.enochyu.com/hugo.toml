@@ -3,7 +3,7 @@ title = 'Enoch Yu - Archive'
 locale = 'en-us'
 
 enableRobotsTXT = true
-disableKinds = ["section", "taxonomy"]
+disableKinds = ["taxonomy"]
 
 [params]
   author = "Enoch Yu"
@@ -14,30 +14,6 @@ disableKinds = ["section", "taxonomy"]
     blog = "https://blog.enochyu.com/"
     github = "https://github.com/enochyu-official"
 
-[taxonomies]
-  category = "categories"
-
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[markup]
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 4
-
-[languages]
-  [languages.en]
-    label = 'English'
-    locale = 'en-US'
-    timeZone = 'America/New_York'
-    title = 'Enoch Yu'
-    weight = 1
-    [languages.en.pagination]
-      path = 'page'
-
 [security]
-allowContent = ['^text/html$', '^text/markdown$']
+allowContent = ['^text/markdown$']
 

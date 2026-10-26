@@ -2,40 +2,34 @@
 <header class="page-header">
   <h1>Teaching</h1>
 </header>
-<section class="list-page">
-  <div class="list-content">
-    <h2 class="list-h2" id="teaching4">
-      Other
-      <small><small><small>
-      ({{ len hugo.Data.teaching04 }} Documents)
-      </small></small></small>
-    </h2>
-    {{ partial "list.html" (collections.Reverse hugo.Data.teaching04) }}
-
-    <h2 class="list-h2" id="teaching3">
-      Problem of the Day for 100 Days
-      <small><small><small>
-      ({{ len hugo.Data.teaching03 }} Documents)
-      </small></small></small>
-    </h2>
-    {{ partial "list.html" (collections.Reverse hugo.Data.teaching03) }}
-
-    <h2 class="list-h2" id="teaching2">
-      2025 Free AMC 10, 12 Class
-      <small><small><small>
-      ({{ len hugo.Data.teaching02 }} Documents)
-      </small></small></small>
-    </h2>
-    {{ partial "list.html" (collections.Reverse hugo.Data.teaching02) }}
-
-    <h2 class="list-h2" id="teaching1">
-      2025 Free AMC 8 Class
-      <small><small><small>
-      ({{ len hugo.Data.teaching01 }} Documents)
-      </small></small></small>
-    </h2>
-    {{ partial "list.html" (collections.Reverse hugo.Data.teaching01) }}
-  </div>
+<section class="list-container">
+  <table class="list">
+    <thead>
+      <tr>
+        <th class="list-no">No.</th>
+        <th>Title</th>
+        <th>Access</th>
+        <th>Author</th>
+        <th>Date</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ $number := len hugo.Data.C.items }}
+      {{ range hugo.Data.C.items }}
+        <tr>
+          <td class="list-no">{{ $number }}.</td>
+          <td>{{ .title }}</td>
+          <td>{{ .access1 }}, {{ .access2 }}</td>
+          <td>{{ .author }}</td>
+          <td>{{ .date }}</td>
+          <td>{{ .category }}</td>
+        </tr>
+        {{ $number = sub $number 1 }}
+      {{ end }}
+    </tbody>
+  </table>
 </section>
 {{ end }}
+
 
