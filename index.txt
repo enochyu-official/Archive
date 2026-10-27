@@ -201,6 +201,7 @@ C26103 | (Handwritten) Day 85
 C26104 | (Handwritten) Day 86
 C26105 | (Handwritten) Day 87
 C26106 | (Handwritten) Day 88
+C26107 | (Handwritten) Day 89
 ----------------------------------------------------------------------
 
 END OF INDEX

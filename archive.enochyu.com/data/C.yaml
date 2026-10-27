@@ -1,4 +1,12 @@
 items:
+  - title: "Day 89"
+    access1: "/c/pdf/C26107.pdf"
+    access2: "https://youtu.be/OtE5m00ZX8k"
+    author: "Enoch Yu"
+    date: "27 October 2026"
+    category: "Problem of the Day for 100 Days"
+    handwritten: "Y"
+
   - title: "Day 88"
     access1: "/c/pdf/C26106.pdf"
     access2: "https://youtu.be/5QPB8VwEfFI"
