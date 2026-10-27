@@ -1,72 +1,85 @@
 items:
-  - title: 0069. Sqrt(x)
-    access: 26014.txt
-    author: Enoch Yu
-    date: 7 June 2026
-    category: LeetCode
-  - title: 0009. Palindrome Number
-    access: 26013.txt
-    author: Enoch Yu
-    date: 7 June 2026
-    category: LeetCode
-  - title: 0001. Two Sum
-    access: 26012.txt
-    author: Enoch Yu
-    date: 7 June 2026
-    category: LeetCode
-  - title: Coordinate Calculator for TikZ
-    access: 26010.txt
-    author: Enoch Yu
-    date: 11 March 2026
-    category: Good Stuffs
-  - title: Prime Factor Calculator
-    access: 26011.txt
-    author: Enoch Yu
-    date: 11 March 2026
-    category: Good Stuffs
-  - title: HackerRank Problem 9
-    access: /b/26009
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
-  - title: HackerRank Problem 8
-    access: /b/26008
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
-  - title: HackerRank Problem 7
-    access: /b/26007
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
-  - title: HackerRank Problem 6
-    access: /b/26006
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
-  - title: HackerRank Problem 5
-    access: /b/26005
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
-  - title: HackerRank Problem 4
-    access: /b/26004
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
-  - title: HackerRank Problem 3
-    access: /b/26003
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
-  - title: HackerRank Problem 2
-    access: /b/26002
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
-  - title: HackerRank Problem 1
-    access: /b/26001
-    author: Enoch Yu
-    date: 11 March 2026
-    category: HackerRank
+  - title: "0069. Sqrt(x)"
+    access: "26014.txt"
+    author: "Enoch Yu"
+    date: "7 June 2026"
+    category: "LeetCode"
+
+  - title: "0009. Palindrome Number"
+    access: 26013.txt"
+    author: "Enoch Yu"
+    date: "7 June 2026"
+    category: "LeetCode"
+
+  - title: "0001. Two Sum"
+    access: 26012.txt"
+    author: "Enoch Yu"
+    date: "7 June 2026"
+    category: "LeetCode"
+
+  - title: "Coordinate Calculator for TikZ"
+    access: 26010.txt"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "Good Stuffs"
+
+  - title: "Prime Factor Calculator"
+    access: 26011.txt"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "Good Stuffs"
+
+  - title: "HackerRank Problem 9"
+    access: /b/26009"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
+
+  - title: "HackerRank Problem 8"
+    access: /b/26008"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
+
+  - title: "HackerRank Problem 7"
+    access: /b/26007"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
+
+  - title: "HackerRank Problem 6"
+    access: /b/26006"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
+
+  - title: "HackerRank Problem 5"
+    access: /b/26005"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
+
+  - title: "HackerRank Problem 4"
+    access: /b/26004"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
+
+  - title: "HackerRank Problem 3"
+    access: /b/26003"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
+
+  - title: "HackerRank Problem 2"
+    access: /b/26002"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
+
+  - title: "HackerRank Problem 1"
+    access: /b/26001"
+    author: "Enoch Yu"
+    date: "11 March 2026"
+    category: "HackerRank"
 
