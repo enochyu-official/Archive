@@ -25,7 +25,7 @@
             {{ $var := . }}
             {{ with .access1 }}
               <a href="{{ . }}">
-                {{ if eq $var.handwritten "Y" }}Handwritten PDF{{ else }}PDF{{ end }}</a>{{ end }}{{ with .access1 }}{{ with $item.access1 }}, {{ end }}
+                {{ if eq $var.handwritten "Y" }}Handwritten PDF{{ else }}PDF{{ end }}</a>{{ end }}{{ with .access2 }}{{ with $item.access1 }}, {{ end }}
             <a href="{{ . }}">Video</a>{{ end }}{{ with .access3 }}{{ with $item.access1 }}, {{ end }}
             <a href="{{ . }}">Source (Git)</a>
             {{ end }}
