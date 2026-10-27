@@ -17,10 +17,19 @@
     <tbody>
       {{ $number := len hugo.Data.C.items }}
       {{ range hugo.Data.C.items }}
+      {{ $item := . }}
         <tr>
           <td class="list-no">{{ $number }}.</td>
           <td>{{ .title }}</td>
-          <td>{{ .access1 }}, {{ .access2 }}</td>
+          <td>
+            {{ $var := . }}
+            {{ with .access1 }}
+              <a href="{{ . }}">
+                {{ if eq $var.handwritten "Y" }}Handwritten PDF{{ else }}PDF{{ end }}</a>{{ end }}{{ with .access1 }}{{ with $item.access1 }}, {{ end }}
+            <a href="{{ . }}">Video</a>{{ end }}{{ with .access3 }}{{ with $item.access1 }}, {{ end }}
+            <a href="{{ . }}">Source (Git)</a>
+            {{ end }}
+          </td>
           <td>{{ .author }}</td>
           <td>{{ .date }}</td>
           <td>{{ .category }}</td>

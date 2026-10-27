@@ -20,7 +20,7 @@
         <tr>
           <td class="list-no">{{ $number }}.</td>
           <td>{{ .title }}</td>
-          <td>{{ .access }}</td>
+          <td><a href="{{ .access }}">Code (Git)</a></td>
           <td>{{ .author }}</td>
           <td>{{ .date }}</td>
           <td>{{ .category }}</td>
@@ -31,5 +31,4 @@
   </table>
 </section>
 {{ end }}
-
 
