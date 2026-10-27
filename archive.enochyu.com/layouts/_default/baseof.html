@@ -11,11 +11,9 @@
   </main>
   
   <footer class="footer">
-    <div>
-      <a href="https://enochyu.com/" target="_blank" rel="noopener noreferrer">
-        &copy; {{ now.Year }} {{ .Site.Params.author }}. All Rights Reserved.
-      </a>
-    </div>
+    <span>
+      &copy; {{ now.Year }} {{ .Site.Params.author }}. All Rights Reserved.
+    </span>
   </footer>
   
   {{ $script := resources.Get "js/script.js" }}
