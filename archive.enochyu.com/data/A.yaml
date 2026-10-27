@@ -1,10 +1,10 @@
 items:
   - title: "LibreNotebook"
-    access1: "/a/pdf/Astandalone.pdf"
-    access2: "https://github.com/enochyu-official/Archive/blob/main/A/tex/Astandalone.tex"
+    access1: "/LibreNotebook.pdf"
+    access2: "https://github.com/enochyu-official/LibreNotebook"
     author: "Enoch Yu"
-    date: "Today"
-    category: "standalone"
+    date: "Daily"
+    category: "Book"
 
   - title: "Enoch's Notebook: An Introduction to Linear Algebra"
     access1: "/a/pdf/A26101.pdf"

@@ -8,11 +8,6 @@ disableKinds = ["taxonomy"]
 [params]
   author = "Enoch Yu"
   favicon = "/favicon/favicon.ico"
-  [params.social]
-    website = "https://enochyu.com/"
-    youtube = "https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg"
-    blog = "https://blog.enochyu.com/"
-    github = "https://github.com/enochyu-official"
 
 [security]
 allowContent = ['^text/markdown$']
